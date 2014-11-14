@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JHSchool.Data.JHAbsenceMapping" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHAbsenceMapping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHAbsenceMappingInfo" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHAbsenceMappingInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHAttendance" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAgAAEAAAABBAQAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHAttendance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHAttendanceRecord" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHAttendanceRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHDemerit" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAICAAEAAAAAAAAAAgAAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHDemerit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHDemeritRecord" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHDemeritRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHDiscipline" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAIAAAEAAAAAAAAAAAAAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHDiscipline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHDisciplineRecord" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHDisciplineRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHMerit" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAICAAEAAAAAAAAAAgAAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHMerit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHMeritRecord" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHMeritRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHPeriodMapping" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHPeriodMapping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHPeriodMappingInfo" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behavior\JHPeriodMappingInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHAEInclude" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEQAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHAEInclude.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHAEIncludeRecord" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAABAAAAAAAABAAAACAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHAEIncludeRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHAssessmentSetup" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEQAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHAssessmentSetup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHAssessmentSetupRecord" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHAssessmentSetupRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHExam" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEQAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHExam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHExamRecord" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHExamRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHMoralScore" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAAAAAAAAgAAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHMoralScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHMoralScoreRecord" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHMoralScoreRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHProgramPlan" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEQAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHProgramPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHProgramPlanRecord" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHProgramPlanRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHSCAttend" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEQAACAAAAAAAAAAAAAAAAEAAAAABBAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHSCAttend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHSCAttendRecord" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAIAAABAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Evaluation\JHSCAttendRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHSCETake" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEQAACBAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHSCETake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHSCETakeRecord" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAAAQAAAAAgAAIAAABAAAAAAAABAAAAACAAAAAA=</HashCode>
+      <FileName>Evaluation\JHSCETakeRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHScoreCalcRule" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEQAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHScoreCalcRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHScoreCalcRuleRecord" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHScoreCalcRuleRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHSemesterScore" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAEAAAAAAAAAAAAAAAAAgAAEAAAABBAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHSemesterScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHSemesterScoreRecord" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>Evaluation\JHSemesterScoreRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHTCInstruct" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEQAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHTCInstruct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHTCInstructRecord" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\JHTCInstructRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHClass" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEQAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHClassRecord" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>JHClassRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHClassTag" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEACACAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>JHClassTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHClassTagRecord" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHClassTagRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHCourse" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEQAACAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHCourseRecord" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>JHCourseRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHCourseTag" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAAAAAAAAAAAEAAAAAAAAACEAAAAA=</HashCode>
+      <FileName>JHCourseTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHCourseTagRecord" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHCourseTagRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHSchoolInfo" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgQAAAAAAACAgAAAAAAAAAEAiAKCCAAAAAAA=</HashCode>
+      <FileName>JHSchoolInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHSemesterHistory" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAA=</HashCode>
+      <FileName>JHSemesterHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHSemesterHistoryRecord" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHSemesterHistoryRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHStudent" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEQAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>JHStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHStudentRecord" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGEAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>JHStudentRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHStudentTag" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>JHStudentTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHStudentTagRecord" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHStudentTagRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHTagConfig" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEQgACAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHTagConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHTagConfigRecord" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHTagConfigRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHTeacher" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEQAACAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHTeacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHTeacherRecord" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHTeacherRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHTeacherTag" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHTeacherTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHTeacherTagRecord" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JHTeacherTagRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHAddress" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAA=</HashCode>
+      <FileName>Permrec\JHAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHAddressRecord" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Permrec\JHAddressRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHLeaveIfno" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAA=</HashCode>
+      <FileName>Permrec\JHLeaveIfno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHLeaveInfoRecord" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Permrec\JHLeaveInfoRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHParent" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAA=</HashCode>
+      <FileName>Permrec\JHParent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHParentRecord" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Permrec\JHParentRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHPhone" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAA=</HashCode>
+      <FileName>Permrec\JHPhone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHPhoneRecord" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Permrec\JHPhoneRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHUpdateRecord" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAEAAACAAAAAAAAAAAAAAAAEAAAABBAAAAAAAAAA=</HashCode>
+      <FileName>Permrec\JHUpdateRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JHSchool.Data.JHUpdateRecordRecord" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIQAAQAEAAAAAAAEAAIABAAACIAAIABAAGAAIAAA=</HashCode>
+      <FileName>Permrec\JHUpdateRecordRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="新細明體" Size="9" />
+</ClassDiagram>

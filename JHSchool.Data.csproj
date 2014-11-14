@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{02B431F4-C5F9-436C-BA91-58A63048D722}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JHSchool.Data</RootNamespace>
+    <AssemblyName>JHSchool.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>%24/ischoolteam/ischool_AbstractLayers/JHSchool.Data</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>http://tfserver.ischool.com.tw:8080/tfs/tfs2008</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\JHSchool.Data.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Behavior\JHAbsenceMapping.cs" />
+    <Compile Include="Behavior\JHAbsenceMappingInfo.cs" />
+    <Compile Include="Behavior\JHDiscipline.cs" />
+    <Compile Include="Behavior\JHDisciplineRecord.cs" />
+    <Compile Include="Behavior\JHMeritDemeritReduce.cs" />
+    <Compile Include="Behavior\JHMeritDemeritReduceRecord.cs" />
+    <Compile Include="Behavior\JHPeriodMapping.cs" />
+    <Compile Include="Behavior\JHPeriodMappingInfo.cs" />
+    <Compile Include="Behavior\JHAttendance.cs" />
+    <Compile Include="Behavior\JHAttendanceRecord.cs" />
+    <Compile Include="Behavior\JHDemerit.cs" />
+    <Compile Include="Behavior\JHDemeritRecord.cs" />
+    <Compile Include="Behavior\JHMerit.cs" />
+    <Compile Include="Behavior\JHMeritRecord.cs" />
+    <Compile Include="Evaluation\JHAEIncludeRecord.cs" />
+    <Compile Include="Evaluation\JHChineseEnglishSubjectMapping.cs" />
+    <Compile Include="Evaluation\JHSCAttendRecord.cs" />
+    <Compile Include="Evaluation\JHSCETakeRecord.cs" />
+    <Compile Include="Evaluation\JHSemesterScoreRecord.cs" />
+    <Compile Include="Evaluation\JHAEInclude.cs" />
+    <Compile Include="Evaluation\JHAssessmentSetup.cs" />
+    <Compile Include="Evaluation\JHAssessmentSetupRecord.cs" />
+    <Compile Include="Evaluation\JHExam.cs" />
+    <Compile Include="Evaluation\JHExamRecord.cs" />
+    <Compile Include="Evaluation\JHMoralScore.cs" />
+    <Compile Include="Evaluation\JHMoralScoreRecord.cs" />
+    <Compile Include="Evaluation\JHProgramPlan.cs" />
+    <Compile Include="Evaluation\JHProgramPlanRecord.cs" />
+    <Compile Include="Evaluation\JHSCAttend.cs" />
+    <Compile Include="Evaluation\JHSCETake.cs" />
+    <Compile Include="Evaluation\JHScoreCalcRule.cs" />
+    <Compile Include="Evaluation\JHScoreCalcRuleRecord.cs" />
+    <Compile Include="Evaluation\JHSemesterScore.cs" />
+    <Compile Include="Evaluation\JHTCInstruct.cs" />
+    <Compile Include="Evaluation\JHTCInstructRecord.cs" />
+    <Compile Include="JHClassTag.cs" />
+    <Compile Include="JHClassTagRecord.cs" />
+    <Compile Include="JHCourseTag.cs" />
+    <Compile Include="JHCourseTagRecord.cs" />
+    <Compile Include="JHSchoolInfo.cs" />
+    <Compile Include="JHSemesterHistory.cs" />
+    <Compile Include="JHSemesterHistoryRecord.cs" />
+    <Compile Include="JHStudent.cs" />
+    <Compile Include="JHStudentRecord.cs" />
+    <Compile Include="JHStudentTag.cs" />
+    <Compile Include="JHStudentTagRecord.cs" />
+    <Compile Include="JHTagConfig.cs" />
+    <Compile Include="JHTagConfigRecord.cs" />
+    <Compile Include="JHTeacherTag.cs" />
+    <Compile Include="JHTeacherTagRecord.cs" />
+    <Compile Include="Permrec\JHAddress.cs" />
+    <Compile Include="Permrec\JHAddressRecord.cs" />
+    <Compile Include="Permrec\JHBeforeEnrollment.cs" />
+    <Compile Include="Permrec\JHBeforeEnrollmentRecord.cs" />
+    <Compile Include="Permrec\JHLeaveIfno.cs" />
+    <Compile Include="Permrec\JHLeaveInfoRecord.cs" />
+    <Compile Include="Permrec\JHParent.cs" />
+    <Compile Include="Permrec\JHParentRecord.cs" />
+    <Compile Include="Permrec\JHPhone.cs" />
+    <Compile Include="Permrec\JHPhoneRecord.cs" />
+    <Compile Include="Permrec\JHUpdateRecord.cs" />
+    <Compile Include="Permrec\JHUpdateRecordBatch.cs" />
+    <Compile Include="Permrec\JHUpdateRecordRecord.cs" />
+    <Compile Include="Permrec\JHUpdateReocrdBatchRecord.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="JHCourseRecord.cs" />
+    <Compile Include="JHClass.cs" />
+    <Compile Include="JHClassRecord.cs" />
+    <Compile Include="JHCourse.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="JHTeacher.cs" />
+    <Compile Include="JHTeacherRecord.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\K12\Data\K12.Data.csproj">
+      <Project>{A03E2482-6CCF-4CB1-905F-F32CEC4BFDE0}</Project>
+      <Name>K12.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
